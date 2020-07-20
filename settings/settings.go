@@ -20,6 +20,7 @@ type AppConfig struct {
 	*RedisConfig `mapstructure:"redis"`
 }
 
+//log配置信息
 type LogConfig struct {
 	Level      string `mapstructure:"level"`
 	Filename   string `mapstructure:"filename"`
@@ -27,6 +28,8 @@ type LogConfig struct {
 	MaxAge     int    `mapstructure:"max_age"`
 	MaxBackups int    `mapstructure:"max_backups"`
 }
+
+//mysql配置信息
 type MySQLConfig struct {
 	Host         string `mapstructure:"host"`
 	User         string `mapstructure:"user"`
@@ -36,6 +39,8 @@ type MySQLConfig struct {
 	MaxOpenConns int    `mapstructure:"max_open_conns"`
 	MaxIdleConns int    `mapstructure:"max_idle_conns"`
 }
+
+//redis配置信息
 type RedisConfig struct {
 	Host     string `mapstructure:"host"`
 	Password string `mapstructure:"password"`
