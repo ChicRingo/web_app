@@ -45,8 +45,8 @@ type RedisConfig struct {
 }
 
 func Init() (err error) {
-	viper.SetConfigFile("./config/config.json") //main函数目录的相对文件位置，注意使用此函数，下面两行会覆盖你的设置，建议二选一
-	//viper.AddConfigPath(".")                    // 指定查找配置文件的路径
+	viper.SetConfigFile("config.yaml") //main函数目录的相对文件位置，注意使用此函数，下面两行会覆盖你的设置，建议二选一
+	//viper.AddConfigPath("./config/")                    // 指定查找配置文件的路径
 	//viper.SetConfigName("config")               // 指定配置文件(不需要带后缀)
 
 	//因为字节流中没有文件扩展名，所以支持的扩展名是“ json”，“ toml”，“ yaml”，“ yml”，“ properties”，“ props”，“ prop”，“ env”，“ dotenv”
