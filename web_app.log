@@ -1,0 +1,11 @@
+{"level":"DEBUG","time":"2020-07-20T14:41:54.662+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"ERROR","time":"2020-07-20T14:41:54.681+0800","caller":"mysql/mysql.go:27","msg":"connect DB failed, err:%v\n","error":"Error 1049: Unknown database 'sql_demo'"}
+{"level":"DEBUG","time":"2020-07-20T14:42:49.724+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"ERROR","time":"2020-07-20T14:42:49.735+0800","caller":"mysql/mysql.go:27","msg":"connect DB failed, err:%v\n","error":"Error 1049: Unknown database 'sql_demo'"}
+{"level":"DEBUG","time":"2020-07-20T14:44:52.327+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"ERROR","time":"2020-07-20T14:44:52.338+0800","caller":"mysql/mysql.go:27","msg":"connect DB failed, err:%v\n","error":"Error 1049: Unknown database 'sql_demo'"}
+{"level":"DEBUG","time":"2020-07-20T14:45:10.034+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-07-20T14:45:54.653+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-07-20T14:46:32.418+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-07-20T14:46:49.543+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-07-20T14:47:28.088+0800","caller":"web_app/main.go:37","msg":"logger init success..."}
