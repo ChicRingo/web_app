@@ -13,7 +13,7 @@ import (
 	"web_app/dao/redis"
 	"web_app/logger"
 	"web_app/pkg/snowflake"
-	"web_app/routes"
+	"web_app/router"
 	"web_app/settings"
 
 	"go.uber.org/zap"
@@ -56,7 +56,7 @@ func main() {
 	}
 
 	// 5.注册路由
-	r := routes.SetupRouter(settings.Conf.Mode)
+	r := router.SetupRouter(settings.Conf.Mode)
 
 	// 6.启动服务(关机保护)
 	srv := &http.Server{
